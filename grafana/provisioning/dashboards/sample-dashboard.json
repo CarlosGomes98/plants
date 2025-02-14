@@ -1,0 +1,34 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "name": "Prometheus Metrics",
+        "type": "graph",
+        "datasource": "Prometheus",
+        "targets": [
+          {
+            "expr": "up",
+            "legendFormat": "{{instance}}",
+            "refId": "A"
+          },
+          {
+            "expr": "humidity",
+            "legendFormat": "Humidity - {{instance}}",
+            "refId": "B"
+          }
+        ],
+        "title": "Prometheus Metrics",
+        "xaxis": {
+          "show": true,
+          "mode": "time"
+        },
+        "yaxis": {
+          "show": true
+        }
+      }
+    ]
+  },
+  "description": "Sample dashboard for monitoring Prometheus metrics.",
+  "title": "Sample Dashboard",
+  "version": 1
+}
