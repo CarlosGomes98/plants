@@ -35,8 +35,6 @@ services:
     volumes:
       - ./sensor:/app
     command: bash -c "pip install requests && python /app/app.py"
-    depends_on:
-      - pushgateway
     environment:
       - PYTHONUNBUFFERED=1
 

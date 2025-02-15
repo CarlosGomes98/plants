@@ -2,7 +2,7 @@ import requests
 import random
 import time
 
-url = 'http://pushgateway:9091/metrics/job/sensor-data'
+url = 'http://34.74.158.214:9091/metrics/job/sensor-data'
 
 while True:
     temperature = random.randint(10, 30)

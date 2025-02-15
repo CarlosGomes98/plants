@@ -12,8 +12,13 @@
             "refId": "A"
           },
           {
-            "expr": "humidity",
-            "legendFormat": "Humidity - {{instance}}",
+            "expr": "moisture1",
+            "legendFormat": "Moisture - {{instance}}",
+            "refId": "B"
+          },
+          {
+            "expr": "moisture2",
+            "legendFormat": "Moisture - {{instance}}",
             "refId": "B"
           }
         ],
